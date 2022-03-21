@@ -1,8 +1,7 @@
 {
-  "name": "react-template",
+  "name": "react-hooks-user",
   "version": "0.1.0",
-  "description": "An advanced React template",
-  "repository": "https://github.com/PoQuatre/react-template.git",
+  "repository": "https://github.com/PoQuatre/react-hooks-user.git",
   "author": "PoQuatre <leflem.mateo2002@gmail.com>",
   "license": "MIT",
   "private": true,
@@ -17,7 +16,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build:ci": "vite build --base=/react-template/",
+    "build:ci": "vite build --base=/react-hooks-user/",
     "preview": "vite preview",
     "typecheck": "tsc",
     "format": "prettier --check \"**/*.{js,jsx,ts,tsx,json,html,md,svg,yml}\"",

@@ -13,6 +13,7 @@ export default defineConfig({
           if (ext && /png|jpe?g|svg|gif|tiff|bmp|ico/i.test(ext)) {
             ext = 'img';
           }
+          // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
           return `assets/${ext}/[name]-[hash][extname]`;
         },
         chunkFileNames: 'assets/js/[name]-[hash].js',
